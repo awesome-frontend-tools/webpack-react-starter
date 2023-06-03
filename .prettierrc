@@ -1,0 +1,25 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "printWidth": 100,
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "importOrder": [
+    "(react$)",
+    "<THIRD_PARTY_MODULES>",
+    "(components$)",
+    "^components/(.*)$",
+    "^pages/(.*)$",
+    "^stores/(.*)$",
+    "^utils/(.*)$",
+    "^[./].*(?<!\\.(c|le|sc)ss)$",
+    "\\.(c|le|sc)ss$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
