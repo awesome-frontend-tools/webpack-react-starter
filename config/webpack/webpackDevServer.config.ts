@@ -14,7 +14,7 @@ export function buildDevServer(options?: BuildOptions): DevServerConfiguration {
     compress: true,
     // Включить горячую перезагрузку сервера.
     hot: true,
-    // Показывать index.html вместо ошибки 404
+    // Показывать index.html на всех старинах (требуется для корректного роутинга SPA)
     historyApiFallback: true,
   };
 }
